@@ -1,31 +1,38 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <include layout="@layout/toolbar" />
+    <include layout="@layout/toolbar"/>
+
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="@dimen/list_side_margin"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
         <android.support.v4.widget.SwipeRefreshLayout
+
             android:id="@+id/swipe_refresh_layout"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/max_width_in_landscape"
             android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal">
+            android:layout_gravity="center_horizontal"
+            >
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:clipToPadding="false"
-                android:scrollbarStyle="outsideOverlay" />
+                android:scrollbarStyle="outsideOverlay"
+                android:paddingLeft="@dimen/list_side_margin"
+                android:paddingRight="@dimen/list_side_margin"
+                android:paddingBottom="28dp"
+                />
         </android.support.v4.widget.SwipeRefreshLayout>
-
     </FrameLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>

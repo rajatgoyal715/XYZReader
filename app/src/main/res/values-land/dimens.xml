@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_column_count">2</integer>
+    <dimen name="max_width_in_landscape">460dp</dimen>
+    <dimen name="list_margin">32dp</dimen>
+</resources>

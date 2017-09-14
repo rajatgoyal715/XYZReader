@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="list_column_count">2</integer>
+    <dimen name="collapsing_toolbar_height">560dp</dimen>
+    <dimen name="list_margin">64dp</dimen>
+    <dimen name="max_width_in_landscape">720dp</dimen>
+</resources>

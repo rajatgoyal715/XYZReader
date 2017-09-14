@@ -1,5 +1,11 @@
 <resources>
-    <!-- detail -->
+
+    <dimen name="list_side_margin">4dp</dimen>
+    <dimen name="list_toolbar_side_margin">0dp</dimen>
+    <integer name="list_column_count">2</integer>
+
+    <dimen name="max_width_in_landscape">420dp</dimen>
+
     <dimen name="detail_title_text_size">32sp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
@@ -7,5 +13,19 @@
     <dimen name="fab_elevation">2dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+
+    <dimen name="margin_8dips">8dp</dimen>
+    <dimen name="margin_16dips">16dp</dimen>
+    <dimen name="margin_24dips">24dp</dimen>
+    <dimen name="margin_60dips">60dp</dimen>
+
+    <dimen name="padding_4dips">4dp</dimen>
+    <dimen name="padding_8dips">8dp</dimen>
+    <dimen name="padding_16dips">16dp</dimen>
+    <dimen name="padding_24dips">24dp</dimen>
+
+    <dimen name="collapsing_toolbar_height">300dp</dimen>
+    <dimen name="height_100dips">100dp</dimen>
+
 
 </resources>

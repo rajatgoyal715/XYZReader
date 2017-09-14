@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_margin">40dp</dimen>
+    <dimen name="collapsing_toolbar_height">460dp</dimen>
+    <dimen name="max_width_in_landscape">550dp</dimen>
+    <integer name="grid_column_count">2</integer>
+</resources>
